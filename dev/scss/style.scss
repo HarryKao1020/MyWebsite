@@ -1,0 +1,17 @@
+$colorText : blue;
+$colorBackground: black;
+
+body{
+    background-color: $colorBackground;
+}
+
+
+h1{
+    color: $colorText;
+    font-size: 60px;
+}
+
+
+h3{
+    color: red;
+}

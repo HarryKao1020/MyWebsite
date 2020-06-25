@@ -1,0 +1,17 @@
+{
+  "name": "start-project",
+  "version": "1.0.0",
+  "description": "starter for new project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Harry Kao",
+  "license": "MIT",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.0.2",
+    "save-dev": "0.0.1-security"
+  }
+}
