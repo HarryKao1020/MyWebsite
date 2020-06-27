@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="79.083" height="48.083" viewBox="0 0 79.083 48.083">
+  <g id="Group_2" data-name="Group 2" transform="translate(-945.958 -1003.958)">
+    <g id="Rectangle_3" data-name="Rectangle 3" transform="translate(970 1003.958) rotate(45)" stroke="#ffd500" stroke-width="3">
+      <rect width="34" height="34" stroke="none"/>
+      <rect x="1.5" y="1.5" width="31" height="31" fill="none"/>
+    </g>
+    <g id="Rectangle_5" data-name="Rectangle 5" transform="translate(1001 1003.958) rotate(45)" stroke="#ffd500" stroke-width="3">
+      <rect width="34" height="34" stroke="none"/>
+      <rect x="1.5" y="1.5" width="31" height="31" fill="none"/>
+    </g>
+    <g id="Group_1" data-name="Group 1" transform="translate(1)">
+      <g id="Rectangle_4" data-name="Rectangle 4" transform="translate(984 1003.958) rotate(45)" fill="#ffd500" stroke="#ffd500" stroke-width="3">
+        <rect width="34" height="34" stroke="none"/>
+        <rect x="1.5" y="1.5" width="31" height="31" fill="none"/>
+      </g>
+      <text id="H" transform="translate(977.5 1035)" fill="#484848" font-size="20" font-family="SegoeUI, Segoe UI"><tspan x="0" y="0">H</tspan></text>
+    </g>
+  </g>
+</svg>
