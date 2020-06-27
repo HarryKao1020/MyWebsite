@@ -22,17 +22,19 @@ async function styleScss(){
 
 
 // 把PUG轉成HTML
-async function stylepug(){
-    return gulp.src('dev/**/*.pug')
-                .pipe(pug({
-                    pretty: true
-                }))
-                .pipe(gulp.dest('dist/'))
-}
+
+// async function stylepug(){
+//     return gulp.src('dev/**/*.pug')
+//                 .pipe(pug({
+//                     pretty: true
+//                 }))
+//                 .pipe(gulp.dest('dist/'))
+// }
 
 // PUG跟SCSS和一起的函式
+
 async function style(){
-    stylepug();
+    // stylepug();
     styleScss();
 }
 
@@ -58,6 +60,7 @@ function watch() {
     gulp.watch('dev/scss/**/*.scss', style);
     gulp.watch('dev/**/*.pug', style);
     gulp.watch('dist/*.html').on('change' , browserSync.reload);
+    gulp.watch('dist/css/*.css').on('change', browserSync.reload)
     gulp.watch('dev/js/**/*.js').on('change' , browserSync.reload);
 }
 
